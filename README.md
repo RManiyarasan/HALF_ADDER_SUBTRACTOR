@@ -34,6 +34,8 @@ Borrow = A’B
 Figure -02 HALF Subtractor
 
 **Truthtable**
+![WhatsApp Image 2025-04-23 at 13 34 21_079a3ebb](https://github.com/user-attachments/assets/15b458ea-898e-4f0e-8bb7-b825fc347959)
+
 
 **Procedure**
 
@@ -49,13 +51,39 @@ Figure -02 HALF Subtractor
 
 
 **Program:**
-
+```
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
+Developed by:Maniyarasan R  RegisterNumber:212224040185
+
+       HALF-ADDER
+module expde3a(a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum= ( a ^ b);
+assign carry =(a & b);
+endmodule
+
+
+       HALF-SUBTRACTOR 
+module expde3b(a,b,diff,borr);
+input a,b;
+output diff,borr;
+assign diff= (a^b);
+assign borr= (~a&b);
+endmodule
+```
 
 **RTL Schematic**
+![de3](https://github.com/user-attachments/assets/b72fd96c-7501-46c6-bd94-27ff0756d423)
+![de33](https://github.com/user-attachments/assets/854bb465-303a-4327-b7e8-8f65b42ef06c)
+
 
 **Output/TIMING Waveform**
+![de3333](https://github.com/user-attachments/assets/c5b91056-4303-4c9d-bd00-964036782277)
+![de333](https://github.com/user-attachments/assets/d70d588f-566a-4fe7-bc17-248bd2f7c4b5)
+
+
 
 **Result:**
+        Thus the program has been verified successfully
