@@ -86,4 +86,4 @@ endmodule
 
 
 **Result:**
-        Thus the program has been verified successfully
+        The program has been verified successfully
